@@ -1,0 +1,11 @@
+.title {
+  width: 600px;
+  text-align: center;
+  margin-inline: auto;
+}
+
+.message {
+  width: 600px;
+  margin-inline: auto;
+  color: #4fa1e4;
+}
