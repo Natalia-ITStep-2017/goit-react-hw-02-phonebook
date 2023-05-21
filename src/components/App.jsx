@@ -24,8 +24,8 @@ class Phonebook extends Component {
       number,
     };
 
-    const isExistedName = this.state.contacts.map(({ name }) => name)
-      .includes(name);
+    const isExistedName = this.state.contacts.map(({ name }) => name.toLowerCase())
+      .includes(name.toLowerCase());
     
     if (isExistedName) {
       alert(`Contact with name "${name}" already exist`);
